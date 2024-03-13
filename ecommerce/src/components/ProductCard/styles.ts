@@ -8,7 +8,6 @@ export const Container = styled.div`
   padding: 16px;
   border-radius: 4px;
   background-color: ${({ theme }) => theme.COLORS.WHITE};
-  /* width: 33%; */
 `;
 
 export const MovieImage = styled.img`
