@@ -5,7 +5,7 @@ import PageContainer from '../components/PageContainer'
 export default function Cart() {
   return (
     <PageContainer>
-      <CartCard></CartCard>
+      <CartCard />
     </PageContainer>
   )
 }
