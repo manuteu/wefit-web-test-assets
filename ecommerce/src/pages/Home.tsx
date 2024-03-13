@@ -42,7 +42,7 @@ export default function Home() {
           ))}
         </GridColumn>
       )}
-      {!productsData && !loading && (
+      {productsData.length === 0 && !loading && (
         <Empty buttonText='Recarregar página' handleReload={getProducts} />
       )}
     </PageContainer>
